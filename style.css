@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
 body {
     font-family: Roboto, sans-serif;
     padding: 0;
@@ -97,7 +103,7 @@ body {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
-    padding: 30px 0;
+    padding: 40px 0;
 }
 
 .info-card-container {
@@ -153,4 +159,36 @@ body {
     padding: 0;
     font-weight: 900;
     font-size: 24px;
+}
+
+.action-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 150px;
+}
+
+.call-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 50px 125px;
+    flex: 1;
+    border-radius: 10px;
+}
+
+.call-text h1 {
+    font-size: 24px;
+}
+
+.call-action button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 25px;
 }
